@@ -1,6 +1,5 @@
       "use client";
       import Image from 'next/image';
-      import Link from 'next/link';
       import React from 'react';
       import { BtnSignUp } from '../../BtnSignUp';
 import { NavLinks } from '../NavLinks';
@@ -12,7 +11,7 @@ import { NavLinks } from '../NavLinks';
 
       const MobileMenu: React.FC<MobileMenuProps> = ({ openMenu, toggleMenu }) => {
             return (
-                  <section className={` fixed md:hidden top-0 left-0 z-[9999] flex flex-col justify-between pt-6 pb-18 px-6 w-full h-screen bg-bgMenuMobile ${openMenu ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-100  `}>
+                  <section className={` fixed md:hidden top-0 left-0 z-3000 flex flex-col justify-between pt-6 pb-18 px-6 w-full h-screen bg-bgMenuMobile ${openMenu ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-100  `}>
                         <section className=" flex justify-between items-center ">
                               <Image src={'/images/logo.svg'} width={80} height={80} alt='logo' />
                               <button type="button" onClick={toggleMenu}>

@@ -5,6 +5,7 @@
 :root {
   --background: #fff;
   --background-menu-mobile: #FFF8F4;
+  --bg-btn-primary: #BA936F;
 }
 
 @theme inline {
@@ -15,16 +16,13 @@
   --color-bgMenuMobile: var(--background-menu-mobile);
   --color-textMenuMobile: #7D553D;
   --color-bgBtnSignUp: #7D553D;
+  --color-bgBtnPrimary: var(--bg-btn-primary)
 
 }
 
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
+
+
 
 body {
       background-color: var(--background);
