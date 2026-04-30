@@ -37,10 +37,6 @@ export default function RootLayout({
                         </header>
                         <main>
                         {children}
-                        <section className=" px-20 ">
-
-                        <BtnRound text="Read More" variant='right' />
-                        </section>
                         </main>
                   </body>
             </html>
