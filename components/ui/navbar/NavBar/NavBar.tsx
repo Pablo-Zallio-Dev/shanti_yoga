@@ -16,18 +16,18 @@ const NavBar: React.FC = ({ }) => {
             setOpenMenu(!openMenu);
       };
       return (
-            <section className=" fixed top-0 left-0 z-5000 flex justify-between items-center py-3 px-5 md:px-12 xl:px-25 2xl:px-50 lg:py-5 w-full bg-white/70 md:bg-white/20 backdrop-blur-xl ">
+            <section className=" fixed top-0 left-0 z-5000 flex justify-between items-center py-3 px-5 md:px-12 xl:px-25 2xl:px-50 lg:py-6 w-full  bg-white/70 md:bg-white/20 backdrop-blur-xl ">
                   <Logo />
                   <DesktopMenu />
                   <MobileMenu openMenu={openMenu} toggleMenu={toggleMenu} />
                   <button type="button" onClick={toggleMenu} className=" md:hidden ">
-                  <Image
-                        src={"/icons/icon_menuOpenMobile.svg"}
-                        width={20}
-                        height={20}
-                        alt="Boton para abrir menu movil"
-                        
-                  />
+                        <Image
+                              src={"/icons/icon_menuOpenMobile.svg"}
+                              width={20}
+                              height={20}
+                              alt="Boton para abrir menu movil"
+
+                        />
                   </button>
                   <section className="hidden md:block">
                         <BtnSignUp />

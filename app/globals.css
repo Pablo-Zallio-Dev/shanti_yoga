@@ -6,7 +6,9 @@
   --background: #fff;
   --background-menu-mobile: #FFF8F4;
   --bg-btn-primary: #BA936F;
+  --bg-slider: #FDEFE6;
   --text-title-primary: #BA936F;
+  
 }
 
 @theme inline {
@@ -14,11 +16,14 @@
   --font-lora: var(--font-lora);
   --font-story: var(--font-storyScript);
 
-  --color-bgMenuMobile: var(--background-menu-mobile);
   --color-textMenuMobile: #7D553D;
+  --color-textTitlePrimary: var(--text-title-primary);
+  
+  /* Background */
+  --color-bgMenuMobile: var(--background-menu-mobile);
   --color-bgBtnSignUp: #7D553D;
   --color-bgBtnPrimary: var(--bg-btn-primary);
-  --color-textTitlePrimary: var(--text-title-primary)
+  --color-bgSlider: var(--bg-slider);
 
 }
 

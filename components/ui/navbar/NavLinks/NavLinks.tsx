@@ -12,6 +12,7 @@ const NavLinks: React.FC<NavLinksProps> = ({ toggleMenu }) => {
       const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
             if (targetId === "home") {
                   window.scrollTo({ top: 0, behavior: "smooth" });
+                  window.history.pushState(null, "", "/");
                   return;
             }
             e.preventDefault();
