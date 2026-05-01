@@ -6,6 +6,7 @@
   --background: #fff;
   --background-menu-mobile: #FFF8F4;
   --bg-btn-primary: #BA936F;
+  --text-title-primary: #BA936F;
 }
 
 @theme inline {
@@ -16,11 +17,10 @@
   --color-bgMenuMobile: var(--background-menu-mobile);
   --color-textMenuMobile: #7D553D;
   --color-bgBtnSignUp: #7D553D;
-  --color-bgBtnPrimary: var(--bg-btn-primary)
+  --color-bgBtnPrimary: var(--bg-btn-primary);
+  --color-textTitlePrimary: var(--text-title-primary)
 
 }
-
-
 
 
 

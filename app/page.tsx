@@ -4,6 +4,7 @@ export default function Home() {
   return (
   <>
   <SectionHome />
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
   </>
   );
 }

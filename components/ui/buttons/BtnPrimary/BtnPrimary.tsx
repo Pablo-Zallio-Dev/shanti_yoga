@@ -7,7 +7,7 @@ export type BtnPrimaryProps = {
 
 const BtnPrimary: React.FC<BtnPrimaryProps>  = ({ text }) => {
 	return (
-		<button className=" py-2 px-8 md:px-10 rounded-lg bg-bgBtnPrimary font-montserrat text-xs text-white ">
+		<button className=" py-2 px-8 md:px-10 rounded-lg bg-bgBtnPrimary font-montserrat text-xs md:text-sm text-white ">
                   {text}
             </button>
 	);
