@@ -11,7 +11,7 @@ import { TextSection } from "../../TextSection";
 
 const HomeHeroUnder: React.FC = ({}) => {
   return (
-    <section className=" pt-20 grid grid-cols-1 sm:grid-cols-2 gap-10 items-center  ">
+    <section className=" pt-15 md:pt-34 grid grid-cols-1 sm:grid-cols-2 gap-10 items-center  ">
       <TitleSection
         text=" Practice Anytime, Anywhere with our Online Classes "
         className=""
@@ -34,9 +34,9 @@ const HomeHeroUnder: React.FC = ({}) => {
           <BtnPrimary text="Trial Lession" />
         </section>
       </section>
-      <section className=" relative sm:col-star-2  sm:row-start-1 sm:row-span-3  w-full h-100 sm:h-120 lg:h-150     ">
+      <section className=" relative sm:col-star-2  sm:row-start-1 sm:row-span-3 lg:max-w-150 h-100 sm:h-120 lg:h-150     ">
         <Image
-          className=" object-contain "
+          className=" object-cover rounded-2xl "
           src={"/images/image_home/image_2.webp"}
           alt="Segunda imagen de seccion home"
           fill

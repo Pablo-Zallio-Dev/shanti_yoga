@@ -8,7 +8,7 @@ export type TitleSectionProps = {
 
 const TitleSection: React.FC<TitleSectionProps>  = ({ text, className }) => {
 	return (
-		<h2 className={` text-2xl md:text-4xl font-lora uppercase text-textTitlePrimary ${className}`}> {text} </h2>
+		<h2 className={` text-2xl md:text-3xl 2xl:text-5xl font-lora uppercase text-textTitlePrimary ${className}`}> {text} </h2>
 	);
 };
 

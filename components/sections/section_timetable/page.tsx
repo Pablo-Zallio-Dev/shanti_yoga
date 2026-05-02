@@ -9,9 +9,9 @@ import Image from "next/image";
 export default function SectionTimetable() {
   return (
   <>
-  <section id="timetable" className=" pt-10 ">
+  <section id="timetable" className="  ">
       <TitleSection text="Join to our class, see our schedule" />
-      <TextSection text="Start your day energized with our early morning classes or relax and unwind during our evening sessions. Join our skilled instructors in our spacious studio and deepen your yoga practice while connecting with a community of like-minded individuals." className=" pt-4 " />
+      <TextSection text="Start your day energized with our early morning classes or relax and unwind during our evening sessions. Join our skilled instructors in our spacious studio and deepen your yoga practice while connecting with a community of like-minded individuals." className=" pt-4  max-w-215 " />
       <section className=" flex flex-col md:flex-row-reverse justify-between md:gap-20 pt-12 ">
             <section className=" relative w-full lg:w-1/2   rounded-2xl  h-116.25 xl:h-140  overflow-hidden ">
                   <Image className=" object-cover     " src='/images/image_timetable/image_timeTable.webp' alt="" fill />

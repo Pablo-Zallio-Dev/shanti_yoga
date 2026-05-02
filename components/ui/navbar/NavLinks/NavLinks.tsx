@@ -45,12 +45,12 @@ const NavLinks: React.FC<NavLinksProps> = ({ toggleMenu }) => {
       };
 
       return (
-            <nav className=" flex flex-col md:flex-row items-center gap-5 lg:gap-12 font-lora text-textMenuMobile "  >
-                  <Link className=' md:hover:shadow-md/20 md:px-3 md:rounded-lg md:hover:scale-102 md:hover:-translate-y-0.5  transition-all duration-100 ' href={'/'} onClick={(e) => handleClick(e, "home")} replace> Home </Link>
-                  <Link className=' md:hover:shadow-md/20 md:px-3 md:rounded-lg md:hover:scale-102 md:hover:-translate-y-0.5  transition-all duration-100 ' href={'#teachers'} onClick={(e) => handleClick(e, "teachers")}> Teachers </Link>
-                  <Link className=' md:hover:shadow-md/20 md:px-3 md:rounded-lg md:hover:scale-102 md:hover:-translate-y-0.5  transition-all duration-100 ' href={'#timetable'} onClick={(e) => handleClick(e, "timetable")}> Timetable </Link>
-                  <Link className=' md:hover:shadow-md/20 md:px-3 md:rounded-lg md:hover:scale-102 md:hover:-translate-y-0.5  transition-all duration-100 ' href={'#types'} onClick={(e) => handleClick(e, "types")}> Types of yoga </Link>
-                  <Link className=' md:hover:shadow-md/20 md:px-3 md:rounded-lg md:hover:scale-102 md:hover:-translate-y-0.5  transition-all duration-100 ' href={'#contact'} onClick={(e) => handleClick(e, "contact")}> Contacts</Link>
+            <nav className=" flex flex-col md:flex-row md:justify-center items-center lg:gap-5 text-sm lg:text-base font-lora text-textMenuMobile "  >
+                  <Link className=' px-3 md:hover:shadow-md/20 md:rounded-lg md:hover:scale-102 md:hover:-translate-y-0.5  transition-all duration-100 ' href={'/'} onClick={(e) => handleClick(e, "home")} replace> Home </Link>
+                  <Link className=' px-3 md:hover:shadow-md/20 md:rounded-lg md:hover:scale-102 md:hover:-translate-y-0.5  transition-all duration-100 ' href={'#teachers'} onClick={(e) => handleClick(e, "teachers")}> Teachers </Link>
+                  <Link className=' px-3 md:hover:shadow-md/20 md:rounded-lg md:hover:scale-102 md:hover:-translate-y-0.5  transition-all duration-100 ' href={'#timetable'} onClick={(e) => handleClick(e, "timetable")}> Timetable </Link>
+                  <Link className=' px-3 md:hover:shadow-md/20 md:rounded-lg md:hover:scale-102 md:hover:-translate-y-0.5  transition-all duration-100 ' href={'#types'} onClick={(e) => handleClick(e, "types")}> Types of yoga </Link>
+                  <Link className=' px-3 md:hover:shadow-md/20 md:rounded-lg md:hover:scale-102 md:hover:-translate-y-0.5  transition-all duration-100 ' href={'#contact'} onClick={(e) => handleClick(e, "contact")}> Contacts</Link>
             </nav>
       );
 };
