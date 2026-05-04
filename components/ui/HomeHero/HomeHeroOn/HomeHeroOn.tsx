@@ -11,10 +11,10 @@ import { TextSection } from "../../TextSection";
 
 const HomeHeroOn: React.FC = ({}) => {
   return (
-    <section className=" relative grid grid-cols-1 sm:grid-cols-2 justify-items-center sm:justify-items-start gap-5     ">
+    <section  className=" relative grid grid-cols-1 sm:grid-cols-2 justify-items-center sm:justify-items-start gap-5 mt-15 sm:mt-30    ">
       <TitleSection
         text=" &ldquo;Uniting the Body, Mind, and Spirit Through the Practice of Yoga&rdquo; "
-        className="absolute z-2000 2xl:w-171.75  sm:self-center sm:static top-8"
+        className="absolute z-2000 2xl:w-171.75  sm:self-center sm:static top-8 "
       />
       <TextSection
         text=" Yoga is a multifaceted discipline that encompasses physical, mental, and spiritual aspects. It is based on the concept of the interconnectedness of body, mind, and spirit, and aims to promote balance and harmony within oneself and with the world around us. "

@@ -30,12 +30,12 @@ export default function RootLayout({
       children: React.ReactNode;
 }>) {
       return (
-            <html lang="en" className={`  ${montserrat.variable} ${lora.variable} ${storyScript.variable} scroll-smooth `}>
-                  <body className="  mt-25 md:mt-35 px-5 md:px-8 xl:px-25 2xl:px-50  md:bg-[url(/images/background_desktop.png)] bg-size-[100%] bg-repeat ">
-                        <header className=" ">
+            <html id="home" lang="en" className={`  ${montserrat.variable} ${lora.variable} ${storyScript.variable} scroll-smooth `}>
+                  <body className=" px-5 md:px-8 xl:px-25 2xl:px-50  md:bg-[url(/images/background_desktop.png)] bg-size-[100%] bg-repeat ">
+                        <header   className=" ">
                               <NavBar />
                         </header>
-                        <main className="  ">
+                        <main   className="  ">
                         {children}
                         </main>
                   </body>

@@ -45,8 +45,8 @@ const NavLinks: React.FC<NavLinksProps> = ({ toggleMenu }) => {
       };
 
       return (
-            <nav className=" flex flex-col md:flex-row md:justify-center items-center lg:gap-5 text-sm lg:text-base font-lora text-textMenuMobile "  >
-                  <Link className=' px-3 md:hover:shadow-md/20 md:rounded-lg md:hover:scale-102 md:hover:-translate-y-0.5  transition-all duration-100 ' href={'/'} onClick={(e) => handleClick(e, "home")} replace> Home </Link>
+            <nav className=" flex flex-col md:flex-row md:justify-center items-center gap-4 lg:gap-5 text-sm lg:text-base font-lora text-textMenuMobile "  >
+                  <Link className=' px-3 md:hover:shadow-md/20 md:rounded-lg md:hover:scale-102 md:hover:-translate-y-0.5  transition-all duration-100 ' href={'#home'} onClick={(e) => handleClick(e, "home")} replace> Home </Link>
                   <Link className=' px-3 md:hover:shadow-md/20 md:rounded-lg md:hover:scale-102 md:hover:-translate-y-0.5  transition-all duration-100 ' href={'#teachers'} onClick={(e) => handleClick(e, "teachers")}> Teachers </Link>
                   <Link className=' px-3 md:hover:shadow-md/20 md:rounded-lg md:hover:scale-102 md:hover:-translate-y-0.5  transition-all duration-100 ' href={'#timetable'} onClick={(e) => handleClick(e, "timetable")}> Timetable </Link>
                   <Link className=' px-3 md:hover:shadow-md/20 md:rounded-lg md:hover:scale-102 md:hover:-translate-y-0.5  transition-all duration-100 ' href={'#types'} onClick={(e) => handleClick(e, "types")}> Types of yoga </Link>
